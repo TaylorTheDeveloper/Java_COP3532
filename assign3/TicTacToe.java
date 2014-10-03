@@ -13,7 +13,7 @@ public class TicTacToe{
 	public static final int PLAYING = 0, PONE_WIN = 1, PTWO_WIN = 2, DRAW = 3; // number of rows and columns
    	public static int[][] gameBoard = new int[ROWS][COLS]; // game board in 2D array
    	//Variables
-	public String gameType; // Game Type
+	public static int gameType; // Game Type
 						// 0 = Null = 2 Human
 						// 3 = -c = 2 computer
 						// 1 = -c 1 = computer is player 1, human player 2
